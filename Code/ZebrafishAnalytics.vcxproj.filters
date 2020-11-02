@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZebrafishAnalytics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\node\qneblock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\node\qneconnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\node\qneport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\node\qnodeseditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Contents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\TopInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\TopToolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\process\ThreadGenBG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\process\ThreadGenLB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\system\cpuinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\system\cpuinfodelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\system\gpuinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\system\gpuinfodelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\system\osinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\system\osinfodelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\system\raminfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\system\raminfodelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\system\systemcommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\DataCellAnalytics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\DataFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\DataProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\LayerBackground.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\theme\darkstyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\theme\framelesswindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\theme\windowdragger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\ViewAxisGLWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\ViewGraphEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\LayerSubregion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\LayerCell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\node\BlockWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogAddFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogAddNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogAddSubregion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogGenBGLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogGenLBLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogGenSRLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogNewProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogPreference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogDetailFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogAnnotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\histogram\Histogram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\histogram\HistogramViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\ViewHistogramWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\ViewHeatmapGLWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\ViewVolumeGLWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogStatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogInfoSubregion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\process\ThreadSubregion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Contents_ProjectInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model\UnitManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Dialog\DialogCellInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\Contents_Annotations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\ViewCellGLWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\transferFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controller\CellSubsetExplorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\view\View2DPlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\som\SOM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="ZebrafishAnalytics.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\node\qnodeseditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Contents.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\TopInterface.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\TopToolbar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\model\process\ThreadGenBG.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\model\process\ThreadGenLB.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\model\DataProject.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\theme\darkstyle.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\theme\framelesswindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\theme\windowdragger.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\ViewAxisGLWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\ViewGraphEditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\node\BlockWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogAddFeature.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogAddNode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogAddSubregion.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogGenBGLayer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogGenLBLayer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogGenSRLayer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogNewProject.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogPreference.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogDetailFeature.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogAnnotation.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\histogram\HistogramViewer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\ViewHistogramWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\ViewHeatmapGLWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\ViewVolumeGLWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogStatistics.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogInfoSubregion.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\model\process\ThreadSubregion.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Contents_ProjectInfo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Dialog\DialogCellInfo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\Contents_Annotations.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\ViewCellGLWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\transferFunction.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\controller\CellSubsetExplorer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\view\View2DPlot.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ZebrafishAnalytics.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Source\view\theme\framelesswindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="ZebrafishAnalytics.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="Source\view\theme\darkstyle.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="Source\view\theme\framelesswindow.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="Source\view\theme\Resource\theme\darkstyle\darkstyle.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\view\theme\darkstyle.qss" />
+    <None Include="Resources\glsl\fshader.glsl" />
+    <None Include="Resources\glsl\vshader.glsl" />
+    <None Include="Resources\theme\darkstyle\darkstyle.qss" />
+    <None Include="Source\view\theme\resource\darkstyle\darkstyle.qss" />
+    <None Include="Resources\glsl\vshader_heatmap.glsl" />
+    <None Include="Resources\glsl\fshader_axisview.glsl" />
+    <None Include="Resources\glsl\fshader_heatmap.glsl" />
+    <None Include="Resources\glsl\vshader_axisview.glsl" />
+    <None Include="Resources\glsl\vshader_3dview.glsl" />
+    <None Include="Resources\glsl\fshader_3dview.glsl" />
+    <None Include="Resources\Zebrafish_eye_filled.tf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\controller\node\qneblock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\controller\node\qneconnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\controller\node\qneport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\system\cpuinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\system\cpuinfodelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\system\gpuinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\system\gpuinfodelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\system\osinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\system\osinfodelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\system\raminfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\system\raminfodelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\system\systemcommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\system\systeminfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\DataCellAnalytics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\DataFeature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\LayerBackground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\LayerSubregion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\LayerCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\controller\Dialog\DialogManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\view\histogram\Histogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\model\process\calculator_subregion.cuh" />
+    <ClInclude Include="Source\model\UnitManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\som\ClassesSOM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\som\SOM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_close.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_restore.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_undock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_branch_closed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_branch_end.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_branch_more.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_branch_open.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_vline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_checkbox_checked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_checkbox_indeterminate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_checkbox_unchecked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_checkbox_checked_pressed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_checkbox_indeterminate_pressed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_checkbox_unchecked_pressed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_checkbox_checked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_checkbox_indeterminate_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_checkbox_unchecked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_radiobutton_checked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_radiobutton_unchecked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_radiobutton_checked_pressed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_radiobutton_unchecked_pressed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_radiobutton_checked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\darkstyle\icon_radiobutton_unchecked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\images\icon_window_minimize.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\images\icon_window_restore.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\images\icon_window_maximize.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\view\theme\Resource\theme\images\icon_window_close.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icon_new.png" />
+    <Image Include="Resources\icon_open.png" />
+    <Image Include="Resources\icon_save.png" />
+    <Image Include="Resources\theme\images\icon_window_close.png" />
+    <Image Include="Resources\theme\images\icon_window_maximize.png" />
+    <Image Include="Resources\theme\images\icon_window_minimize.png" />
+    <Image Include="Resources\theme\images\icon_window_restore.png" />
+    <Image Include="Resources\theme\darkstyle\icon_branch_closed.png" />
+    <Image Include="Resources\theme\darkstyle\icon_branch_end.png" />
+    <Image Include="Resources\theme\darkstyle\icon_branch_more.png" />
+    <Image Include="Resources\theme\darkstyle\icon_branch_open.png" />
+    <Image Include="Resources\theme\darkstyle\icon_checkbox_checked.png" />
+    <Image Include="Resources\theme\darkstyle\icon_checkbox_checked_disabled.png" />
+    <Image Include="Resources\theme\darkstyle\icon_checkbox_checked_pressed.png" />
+    <Image Include="Resources\theme\darkstyle\icon_checkbox_indeterminate.png" />
+    <Image Include="Resources\theme\darkstyle\icon_checkbox_indeterminate_disabled.png" />
+    <Image Include="Resources\theme\darkstyle\icon_checkbox_indeterminate_pressed.png" />
+    <Image Include="Resources\theme\darkstyle\icon_checkbox_unchecked.png" />
+    <Image Include="Resources\theme\darkstyle\icon_checkbox_unchecked_disabled.png" />
+    <Image Include="Resources\theme\darkstyle\icon_checkbox_unchecked_pressed.png" />
+    <Image Include="Resources\theme\darkstyle\icon_close.png" />
+    <Image Include="Resources\theme\darkstyle\icon_radiobutton_checked.png" />
+    <Image Include="Resources\theme\darkstyle\icon_radiobutton_checked_disabled.png" />
+    <Image Include="Resources\theme\darkstyle\icon_radiobutton_checked_pressed.png" />
+    <Image Include="Resources\theme\darkstyle\icon_radiobutton_unchecked.png" />
+    <Image Include="Resources\theme\darkstyle\icon_radiobutton_unchecked_disabled.png" />
+    <Image Include="Resources\theme\darkstyle\icon_radiobutton_unchecked_pressed.png" />
+    <Image Include="Resources\theme\darkstyle\icon_restore.png" />
+    <Image Include="Resources\theme\darkstyle\icon_undock.png" />
+    <Image Include="Resources\theme\darkstyle\icon_vline.png" />
+    <Image Include="Source\view\theme\resource\images\icon_window_close.png" />
+    <Image Include="Source\view\theme\resource\images\icon_window_maximize.png" />
+    <Image Include="Source\view\theme\resource\images\icon_window_minimize.png" />
+    <Image Include="Source\view\theme\resource\images\icon_window_restore.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_vline.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_branch_closed.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_branch_end.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_branch_more.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_branch_open.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_checkbox_checked.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_checkbox_checked_disabled.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_checkbox_checked_pressed.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_checkbox_indeterminate.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_checkbox_indeterminate_disabled.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_checkbox_indeterminate_pressed.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_checkbox_unchecked.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_checkbox_unchecked_disabled.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_checkbox_unchecked_pressed.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_close.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_radiobutton_checked.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_radiobutton_checked_disabled.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_radiobutton_checked_pressed.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_radiobutton_unchecked.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_radiobutton_unchecked_disabled.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_radiobutton_unchecked_pressed.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_restore.png" />
+    <Image Include="Source\view\theme\resource\darkstyle\icon_undock.png" />
+    <Image Include="Resources\icon_subregion.png" />
+    <Image Include="Resources\icon_data_fish.png" />
+    <Image Include="Resources\icon_addnode.png" />
+    <Image Include="Resources\icon_blockclose.png" />
+    <Image Include="Resources\icon_annotation.png" />
+    <Image Include="Resources\icon_detail.png" />
+    <Image Include="Resources\icon_trash.png" />
+    <Image Include="Resources\icon_statistics.png" />
+    <Image Include="Resources\icon_info.png" />
+  </ItemGroup>
+</Project>

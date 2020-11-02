@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/ZebrafishAnalytics">
+        <file>Resources/icon_save.png</file>
+        <file>Resources/icon_open.png</file>
+        <file>Resources/icon_new.png</file>
+        <file>Resources/icon_addnode.png</file>
+        <file>Resources/icon_subregion.png</file>
+        <file>Resources/icon_data_fish.png</file>
+        <file>Resources/icon_annotation.png</file>
+        <file>Resources/icon_blockclose.png</file>
+        <file>Resources/icon_detail.png</file>
+        <file>Resources/icon_trash.png</file>
+        <file>Resources/glsl/fshader_axisview.glsl</file>
+        <file>Resources/glsl/fshader_heatmap.glsl</file>
+        <file>Resources/glsl/vshader_axisview.glsl</file>
+        <file>Resources/glsl/vshader_heatmap.glsl</file>
+        <file>Resources/glsl/fshader_3dview.glsl</file>
+        <file>Resources/glsl/vshader_3dview.glsl</file>
+        <file>Resources/icon_info.png</file>
+        <file>Resources/icon_statistics.png</file>
+        <file>Resources/Zebrafish_eye_filled.tf</file>
+    </qresource>
+</RCC>

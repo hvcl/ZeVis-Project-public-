@@ -1,6 +1,4 @@
 #include "CellSubsetExplorer.h"
-#include "Source/som/SOM.h"
-#include "Source/som/ClassesSOM.h"
 
 #include "Source/controller/node/BlockWidget.h"
 

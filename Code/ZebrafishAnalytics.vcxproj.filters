@@ -213,9 +213,6 @@
     <ClCompile Include="Source\view\View2DPlot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\som\SOM.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="ZebrafishAnalytics.h">
@@ -443,9 +440,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\som\ClassesSOM.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\som\SOM.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

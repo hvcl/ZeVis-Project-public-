@@ -161,7 +161,6 @@
     <ClCompile Include="Source\model\system\raminfo.cpp" />
     <ClCompile Include="Source\model\system\raminfodelegate.cpp" />
     <ClCompile Include="Source\model\system\systemcommand.cpp" />
-    <ClCompile Include="Source\som\SOM.cpp" />
     <ClCompile Include="Source\Utils.cpp" />
     <ClCompile Include="Source\view\theme\darkstyle.cpp" />
     <ClCompile Include="Source\view\theme\framelesswindow.cpp" />
@@ -331,7 +330,6 @@
     <ClInclude Include="Source\model\LayerCell.h" />
     <ClInclude Include="Source\model\process\calculator_subregion.cuh" />
     <ClInclude Include="Source\som\ClassesSOM.h" />
-    <ClInclude Include="Source\som\SOM.h" />
     <ClInclude Include="Source\Utils.h" />
     <ClInclude Include="Source\view\histogram\Histogram.h" />
     <QtMoc Include="Source\view\ViewGraphEditor.h">

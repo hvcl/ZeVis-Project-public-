@@ -53,7 +53,7 @@ void LayerBackground::LoadVolumeRenderingTF() {
 
 void LayerBackground::LoadVolumeRenderingSource() {
 	
-	int level = HeatmapLevel;
+	int level = DataLevel-1;
 	volumeRenderWidth = DataSizeX / pow(2, level);
 	volumeRenderHeight = DataSizeY / pow(2, level);
 	volumeRenderDepth = DataSizeZ / pow(2, level);

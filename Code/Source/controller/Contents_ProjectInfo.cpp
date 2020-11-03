@@ -160,6 +160,10 @@ void Contents_ProjectInfo::setLayerBackground(QString dir) {
 	std::vector<std::string> list_line33 = mUtil.Split(line33.c_str(), ":");
 	mGlobals.CurrentProject->ResolutionZ = atof(list_line33.back().c_str());
 
+	mGlobals.CurrentProject->ResolutionXnm = mGlobals.CurrentProject->ResolutionX;
+	mGlobals.CurrentProject->ResolutionYnm = mGlobals.CurrentProject->ResolutionY;
+	mGlobals.CurrentProject->ResolutionZnm = mGlobals.CurrentProject->ResolutionZ;
+
 	mGlobals.CurrentProject->ResolutionUnitX = 0;
 	mGlobals.CurrentProject->ResolutionUnitY = 0;
 	mGlobals.CurrentProject->ResolutionUnitZ = 0;

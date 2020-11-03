@@ -49,6 +49,12 @@ public:
 	std::vector<LayerSubregion> mSubregion;
 	//std::list<int> mActivatedSubregionIndex;
 
+
+	double ResolutionXnm = 112.8;
+	double ResolutionYnm = 112.8;
+	double ResolutionZnm = 120;
+
+
 	double ResolutionX = 112.8;
 	double ResolutionY = 112.8;
 	double ResolutionZ = 120;

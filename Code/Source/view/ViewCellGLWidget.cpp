@@ -386,7 +386,7 @@ void ViewCellGLWidget::paintGL()
 
 	m_program->release();
 
-	float um_height = (box_max.y()-box_min.y())/this->height() * 800.0 / (h * 0.0564);
+	float um_height = (box_max.y()-box_min.y())/this->height() * 800.0 / (h * mGlobals.CurrentProject->ResolutionXnm * 0.001);
 
 	glColor3f(1, 0.5, 0.5);
 	glBegin(GL_LINES);

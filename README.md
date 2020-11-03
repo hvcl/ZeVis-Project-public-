@@ -3,9 +3,9 @@
 
 Structure
 -----------
-- Code: project (used visual studio 2017 version)
-- DataProcessing_parallel_matlab: image stack to zevis format data
-- Excutable: ZeVis tool
-- ProjectFiles: project files which can be loaded at the system.
+- /Code: project (used visual studio 2017 version)
+- /DataProcessing_parallel_matlab: image stack to zevis format data
+- /Excutable: ZeVis tool
+- /ProjectFiles: project files which can be loaded at the system.
 - *.ZeVis: project file format
 - *.annotation: annotation file format

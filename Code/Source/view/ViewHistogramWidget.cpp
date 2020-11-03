@@ -287,7 +287,8 @@ void ViewHistogramWidget::update_release_box(double start, double end, int flag)
 			mBarsets.at(i)->setColor(QColor("black"));
 		}
 		for (int i = start_idx; i < end_idx; ++i) {
-			mBarsets.at(i)->setColor(QColor("#3A79A0"));
+//			mBarsets.at(i)->setColor(QColor("#3A79A0"));
+			mBarsets.at(i)->setColor(QColor("white"));
 		}
 
 
